@@ -38,7 +38,7 @@ public class CoordinateTestActivity extends BaseActivity {
     @Override
     protected void initView(Bundle savedInstanceState) {
         for (int i = 0; i<= 100; i++){
-            data.add("我是第"+i+"个");
+            data.add("我是第"+i+"个哈哈哈");
         }
         mTestAdapter = new TestAdapter(data);
         mRvToDoList.setAdapter(mTestAdapter);
